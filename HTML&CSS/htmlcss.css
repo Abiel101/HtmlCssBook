@@ -5,25 +5,13 @@
 }
 
 body{
-    background: #1d1b1b;
+    background: #000;
 }
-/*animation in the the link looks dope!!!!*/
-a {
-    text-decoration: none;
-}
-
-a:hover{
-    animation: hover 2s infinite;
-}
-
-
 .content{
     text-align: center;
     position: absolute;
     top: 75%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
 }
 
 .container{
@@ -46,7 +34,7 @@ a:hover{
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: #1d1b1b;
+    background: black;
     position: relative;
     animation: text 2s 1;
 }
@@ -55,17 +43,9 @@ a:hover{
     color: #6ab04c;
 }
 
-.link1{
-    color: #6ab04c;
-    letter-spacing: 8px;
-}
-
-
-/*KEYFRAMES this section had key frames realted to the animation*/
-
 @keyframes text{
     0%{
-        color: #1d1b1b;
+        color: black;
         margin-bottom: -40px;
     }
     30%{
@@ -75,20 +55,5 @@ a:hover{
     85%{
         letter-spacing: 8px;
         margin-bottom: -40px;
-    }
-}
-
-/*This is the key frame for the link animation*/
-
-@keyframes hover{
-    0%{
-        letter-spacing: 8px;
-    }
-    50%{
-        color: #6f4cb0;
-        letter-spacing: 2px;
-    }
-    100%{
-        letter-spacing: 8px;
     }
 }
