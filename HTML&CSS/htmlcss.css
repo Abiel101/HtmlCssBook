@@ -49,6 +49,13 @@ a {
     color: #6ab04c;
 }
 
+
+
+
+/*so to make animations you 
+put the animation first and the you place it where you want it yo be used in what you want it to be used on THATS AWESOME!!!*/
+
+
 @keyframes text{
     0%{
         color: black;
