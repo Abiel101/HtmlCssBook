@@ -56,7 +56,7 @@ li:hover{
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: black;
+    background: #1d1b1b;
     position: relative;
     animation: text 2s 1;
 }
