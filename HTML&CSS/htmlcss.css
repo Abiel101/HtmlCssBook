@@ -14,13 +14,13 @@ a {
 
 ul{
 		color: White;
-		display: inline;
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
 }
 
 .content{
+		display: inline;
     text-align: center;
     position: absolute;
     top: 75%;
