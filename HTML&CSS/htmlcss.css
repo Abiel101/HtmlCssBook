@@ -15,13 +15,13 @@ a {
 ul{
 		color: White;
 		list-style-type: none;
-		padding: 5px;
+		padding: 0;
 		margin: 0;
 }
 
 li{
  display: inline;
- padding: 5px;
+ padding: 10px;
 }
 
 li:hover{
