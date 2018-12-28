@@ -14,6 +14,7 @@ a {
 
 ul{
 		color: White;
+		display: inline;
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
