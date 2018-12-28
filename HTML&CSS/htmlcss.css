@@ -75,7 +75,7 @@ put the animation first and the you place it where you want it yo be used in wha
 
 @keyframes text{
     0%{
-        color: black;
+        color: #1d1b1b;
         margin-bottom: -40px;
     }
     30%{
