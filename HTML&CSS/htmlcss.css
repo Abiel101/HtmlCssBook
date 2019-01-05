@@ -1,11 +1,11 @@
 *{
-    padding: 0;
-    margin: 0;
     font-family: sans-serif;
 }
 
 body{
     background: #1d1b1b;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -13,10 +13,10 @@ a {
 }
 
 ul{
-		color: White;
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
+	color: White;
+	list-style-type: none;
+	padding: 0;
+    margin: 0;
 }
 
 li{
@@ -25,19 +25,20 @@ li{
 }
 
 li:hover{
-	background-color: white;
-	color: black;
+    background: white;
+    color: black;
 }
 
 /*fix the centering postion of the links that I made.
 right now its just auto to the left the right taking 100% of it but
 figure a percentage to center it...*/
 
-.content{
-    text-align: center;
+div.content{
+    width: 150px;
+    border: solid 1px #6ab04c;
     position: absolute;
-    top: 85%;
-    left: auto;
+    top: 75%;
+    left: 45%;
 }
 
 .container{
@@ -63,11 +64,14 @@ figure a percentage to center it...*/
     background: #1d1b1b;
     position: relative;
     animation: text 2s 1;
+
+    
 }
 
 .text2{
     font-size: 30px;
     color: #6ab04c;
+    animation: animate 6s ease-in 1s infinite;
 }
 
 
@@ -90,4 +94,22 @@ put the animation first and the you place it where you want it yo be used in wha
         letter-spacing: 8px;
         margin-bottom: -40px;
     }
+}
+
+
+@keyframes animate{
+
+    0%{
+        color: #03a9f4;
+    }
+    35%{
+        color: #f441a5;
+    }
+    65%{      
+        color: #ffeb3b;
+    }
+    100%{      
+        color: #03a9f4;
+    }
+
 }
