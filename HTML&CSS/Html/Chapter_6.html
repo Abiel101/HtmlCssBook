@@ -5,12 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chapter 6 Tables</title>
+
+    <style>
+    
+    div{
+        padding: 20px;
+    }
+    .blackbox {
+        background-color: black;
+        color: white;
+    }
+
+    </style>
 </head>
 <body>
     
+
+    <!--This is a basic Table structure making Rows with "tr" and making columns with "td"-->
     <div>
-        <h1></h1>
+        <h1>Basic Table Structure</h1>
+
+            <table>
+                <tr>
+                    <td>15</td>
+                    <td>15</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>60</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td>90</td>
+                    <td>90</td>
+                </tr>
+            </table>
+
     </div>
+
+    <!-- Table Headings-->
+
+    <div>
+        <h1>Table Headings</h1>
+
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+            </tr>
+            <tr>
+                <th scope="row">Tickets Sold</th>
+                <td>120</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <th scope="row">Total series</th>
+                <td>$600</td>
+                <td>$675</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <!--This is a recorded message for all my instagram followers which was really fun to do lol 😆-->
+
+        <div class="blackbox">
+            <h1>Sorry this is the heading loL 😂
+            </h1>
+                <p>Hey every one this is my new code editor theme im really loving it so far especially witht eh new git lens 
+                    extension i installed in it its supper cool !!!!!
+                </p>
+                <p>
+                    what i just showed you i show i am able to see any new changes to my file if anyone else is also 
+                    working on the same file with me i think its really cool.
+                    i can also view the history and who was the perosn that made all the changes 
+                </p>
+            
+        </div>
+
+
+        <!--Using Span for both rows and colums-->
+
+        <div>
+            <h1>Span Columns</h1>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>9am</th>
+                        <th>10am</th>
+                        <th>11am</th>
+                        <th>12am</th>
+                    </tr>
+                    <tr>
+                        <th>Monday</th>
+                        <td colspan="2">Geography</td><!--When using the Spanning remember the amount of number placement is how many columns it will use-->
+                        <td>Math</td>
+                        <td>Art</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td colspan="3">Gym</td>  <!--NOte that this one has less "td" thats because when it comes to using this you will end up taking off more rows-->
+                        <td>Home Ec</td>
+                    </tr>
+                </table>
+
+            <h1>Span Rows</h1>
+
+                <table>
+                    <tr>
+                        <th>ABC</th>
+                        <th>BBC</th>
+                        <th>CNN</th>
+                    </tr>
+                    <tr>
+                        <th>6pm - 7pm</th>
+                        <td rowspan="2">Movie</td>
+                        <td>Comedy</td>
+                        <td>News</td>
+                    </tr>
+                    <tr>                                <!--Note that I didnt need to add another rowspan to this sense the one on top 
+                                                                        covered the entire 2 rows.-->
+                        <th>7pm - 8pm</th>
+                        <td>Sport</td>
+                        <td>Current Affairs</td>
+                    </tr>
+                </table>
+
+
+        </div>
+
+
 
 </body>
 </html>
