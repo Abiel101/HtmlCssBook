@@ -17,6 +17,12 @@
     }
     </style>
 </head>
+
+
+<!--Big huge note to remember when doing forms and inputs the "type" really really matters because thats how you choose what you want to use
+so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
+
+
 <body>
     <!--Form Structre "form"-->
     <div>
@@ -65,7 +71,7 @@
         <h1>Text Area</h1>
         <form action="">
             <p>What did you think of this gig?</p>
-            <textarea name="comments" id="" cols="30" rows="10">Enter your comments...</textarea>
+            <textarea name="comments" cols="30" rows="10">Enter your comments...</textarea>
         </form>
     </div>
 
@@ -100,9 +106,9 @@
         <form action="">
             <p>Please select your favorite music Service(s)
                 <br/ >
-                <input type="checkbox" name=services" value="itunes" checked="checked"> iTunes
-                <input type="checkbox" name=services" value="lastfm"> Last.fm
-                <input type="checkbox" name=services" value="spotify"> Spotify
+                <input type="checkbox" name="services" value="itunes" checked="checked"> iTunes
+                <input type="checkbox" name="services" value="lastfm"> Last.fm
+                <input type="checkbox" name="services" value="spotify"> Spotify
             </p>
         </form>
     </div>
@@ -131,7 +137,7 @@
         <h1>Multiple Select Box</h1>
         <form action="">
             <p>Do you play any of the following instruments?
-                (you cna select more than one option by holding down control on a PC 
+                (you can select more than one option by holding down control on a PC 
                 command key on a Mac while selecting different options.)
             </p>
             <select name="instruments" size="3" multiple="multiple">
@@ -160,22 +166,35 @@
             </form>
         </div>
     </div>
+
+
+
+
+
+
     <!-- Submit Button-->
 <div>
     <div class="blackbox">
         <h1>Submit Button</h1>
     </div>
+
     <!--Remember that the value that you give it is the name that it will have in text for the button-->
 
     <div>
         <form action="">
-            <p>Subtribe to our email list:</p>
+            <p>Subscribe to our email list:</p>
             <input type="text" name="email">
             <input type="submit" name="subscribe" value="Subcribe"/>    <!--Value affects the name of the text on the button-->
         </form>
     </div>
 
 </div>
+
+
+
+
+
+
 
 <!--this is how you add an image button using HTML-->
 
@@ -190,6 +209,12 @@
         <input type="image" src="../Images/Red_back.jpg" width="100" height="20" />
     </form>
 </div>
+
+
+
+
+
+
 
 <!--Button & hidden controls -->
 
@@ -208,7 +233,7 @@
 
 
                 <input type="hidden" name="bookmark" value="lyrics" /><!--Remember this is a hidden attribute for hidden information 
-                    
+
                     "example a webpage author might use a hidden field to indicate which page the user was on when they submitted a form"-->
 
 
