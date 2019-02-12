@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page Title</title>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script><!--Section 1-->
     <script type="text/javascript">
     swfobject.embedSWF("flash/bird.swf", "bird", "400", "300", "8.0.0");</script>
 
+
+<!--Section 2 script adding a flash video to the page-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/
+                swfobject/2.2/swtobject/js"></script>
+        <script type="text/javescript">
+                  var flashvars = {}
+                  var params = {movie:".../video/puppy.flv"};
+                  swfobject.embedSWF ("flash/osplayer.swf", "snow", "400", "320", "8.0.0",
+                  flashvars, params);
+                </script>
+
 <body>
 
-    <div>
+    <div><!--Section 1-->
     <h1>Adding a Flash Animation "not supported on this browser"</h1>
     <!--Note that when using this flash can still be used 
           but you really need to be careful with what browsers because not all support it. And if i do use it for something for
@@ -23,6 +34,20 @@
                <br> "flash is probably not supported in this browser anymore but its good to know that I can use it" 
             <br> (and it will use javascript which is most commonly used now a days.) </div>
     </div>
+
+    <div><!--Section 2 adding a flash video to the page-->>
+        <h1>Adding A Flash Video To Your Page</h1>
+<!--WHEN ITS ADDING A FLASH VIDEO ITS IMPORTANT TO NOTE THAT YOU NEED TO USE A JAVASCRIPT SCRIPT SO YOU CAN USE IT 
+AND MAKE SURE THAT ITS REFERING TO THE CORRECT "ID" sense it used the "id" in a div to replace the text with the video...-->
+        <div id="snow"><p>
+            A video of a puppy playing in the snow
+        </p></div>
+
+    </div>
+
+
+
+
 </body>
 </html>
 
