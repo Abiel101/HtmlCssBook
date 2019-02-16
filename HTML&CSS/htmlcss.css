@@ -31,10 +31,8 @@ li:hover{
 
 div.content{
     width: 150px;
+    marign:0 auto;
     text-align: center;
-    position: absolute;
-    top: 75%;
-    left: 46%;
 }
 
 .container{
