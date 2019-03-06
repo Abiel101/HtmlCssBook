@@ -1,0 +1,26 @@
+
+/*This is how i separate each section using black for the title of what im doing and then I do the excercise and 
+    each div is separated*/
+          div{
+            border: solid black 1px;
+            margin: 20px;
+            padding: 20px;
+      }
+      .blackbox {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+      /*-------------------------------*/
+      /*This is the example css*/
+      body{
+            font-family: Arial,Verdana, sans-serif;
+      }
+      h1, h2{
+            color: #ee3e80;
+        }
+        p{
+            color: #665544;
+        }
