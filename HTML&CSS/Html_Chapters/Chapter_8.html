@@ -7,54 +7,57 @@ to us for each version that we know-->
     <title>Chapter 8</title>
 </head>
 
-<style>
-#para{
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-.backblack{
-    background-color: black;
-    padding: 10px;
-}
-li{
-    display: inline;
-}
-</style>
+    <style>
+        #para{
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        .backblack{
+            background-color: black;
+            padding: 10px;
+        }
+        li{
+            display: inline;
+        }
+    </style>
 
 
 <body>
 
 <!--This is the iframe "note that an iframe helps you add parts of another website or even one of our oen and lets you place It in you page where ever you decide to have it......it works like a window"-->
-    
-    <iframe
-    width="450"
-    height="350"
-    src="https://www.google.com/maps/place/934+Whitestone+Ln,+Dallas,+TX+75232/@32.6859069,-96.8404502,17z/data=!3m1!4b1!4m5!3m4!1s0x864e90cba3ad626d:0x59416ef9a4fc512d!8m2!3d32.6859069!4d-96.8382615" 
-    ></iframe> <!---This is most commonly used in adding a google maps to your website which helps having a location so people can find you!!-->
+    <div>
+        <header>    
+            <iframe
+            width="450"
+            height="350"
+            src="https://www.google.com/maps/place/934+Whitestone+Ln,+Dallas,+TX+75232/@32.6859069,-96.8404502,17z/data=!3m1!4b1!4m5!3m4!1s0x864e90cba3ad626d:0x59416ef9a4fc512d!8m2!3d32.6859069!4d-96.8382615" 
+            ></iframe> <!---This is most commonly used in adding a google maps to your website which helps having a location so people can find you!!-->
 
-    <!--In this Chapter, I learned all about the extra markup Including why we us the <meta> element and what kind o attributes are given for it and what 
-    kind of values to give it and for this thats going in the bottom all Im going to do is add the example ending fo course the meta wont be shown but its good to
-know that it is included in the code...-->
+            <!--In this Chapter, I learned all about the extra markup Including why we us the <meta> element and what kind o attributes are given for it and what 
+            kind of values to give it and for this thats going in the bottom all Im going to do is add the example ending fo course the meta wont be shown but its good to
+        know that it is included in the code...-->
 
-        <div class="backblack"><p id="para">In this Chapter, I learned all about the extra markup Including why we us the
-        "meta" element and what kind o attributes are given for it and what
-        kind of values to give it and for this thats going in the bottom all Im going to do is add the example ending fo course
-        the meta wont be shown but its good to
-        know that it is included in the code...</p></div>
 
-        <div>
+            <div class="backblack">
+                <p id="para">In this Chapter, I learned all about the extra markup Including why we us the
+            "meta" element and what kind o attributes are given for it and what
+            kind of values to give it and for this thats going in the bottom all Im going to do is add the example ending fo course
+            the meta wont be shown but its good to
+            know that it is included in the code...</p>
+            </div>
+
             <h1>Example</h1>
 
-            <div>
-                <h1>The Art Book Shop</h1>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">New Publication</a></li>
-                    <li class="current-page"><a href="">contact</a></li>
-                </ul>
-            </div><!--End of Header-->
-
+            <h2>The Art Book Shop</h2>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">New Publication</a></li>
+                <li class="current-page"><a href="">contact</a></li>
+            </ul>
+        </header><!--End of Header-->
+        
+        <main>
             <div id="content">
                 <p>Charing Cross Road, London, WC2, UK</p>
                 <p><span class="contact">Telephone</span>
@@ -70,12 +73,13 @@ know that it is included in the code...-->
                 geocode=&amp;
                 q=charing+cross+road+london&amp:output=embed"></iframe>      
             </div><!--End Content-->
+        </main>
 
+        <footer>
             <p>&copy; The Art BookShop</p>
-
             <p class="backblack" id="para">Yay finished the section</p>
-            
-        </div>
+        </footer>
+    </div>
     
 </body>
 </html>
