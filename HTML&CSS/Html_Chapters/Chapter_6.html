@@ -8,24 +8,24 @@
 
     <style>
     
-    div{
-        border: solid black 1px;
-        margin: 20px;
-        padding: 20px;
-    }
-    .blackbox {
-        background-color: black;
-        color: white;
-    }
+        div{
+            border: solid black 1px;
+            margin: 20px;
+            padding: 20px;
+        }
+        .blackbox {
+            background-color: black;
+            color: white;
+        }
 
     </style>
 </head>
 <body>
     
-
-    <!--This is a basic Table structure making Rows with "tr" and making columns with "td"-->
-    <div>
-        <h1>Basic Table Structure</h1>
+    <main>
+        <!--This is a basic Table structure making Rows with "tr" and making columns with "td"-->
+        <section class="Basic_Table_Structure">
+            <h1>Basic Table Structure</h1>
 
             <table>
                 <tr>
@@ -44,177 +44,171 @@
                     <td>90</td>
                 </tr>
             </table>
-
-    </div>
-
-    <!-- Table Headings-->
-
-    <div>
-        <h1>Table Headings</h1>
-
-        <table>
-            <tr>
-                <th></th>
-                <th scope="col">Saturday</th>
-                <th scope="col">Sunday</th>
-            </tr>
-            <tr>
-                <th scope="row">Tickets Sold</th>
-                <td>120</td>
-                <td>135</td>
-            </tr>
-            <tr>
-                <th scope="row">Total series</th>
-                <td>$600</td>
-                <td>$675</td>
-            </tr>
-        </table>
-    </div>
+        </section>
 
 
-    <!--This is a recorded message for all my instagram followers which was really fun to do lol 😆-->
+        <!-- Table Headings-->
+        <section class="Table_Headings"><!--This is the title of each column-->>
+            <h1>Table Headings</h1>
 
-        <div class="blackbox">
-            <h1>Sorry this is the heading loL 😂
-            </h1>
-                <p>Hey every one this is my new code editor theme im really loving it so far especially witht eh new git lens 
-                    extension i installed in it its supper cool !!!!!
-                </p>
-                <p>
-                    what i just showed you i show i am able to see any new changes to my file if anyone else is also 
-                    working on the same file with me i think its really cool.
-                    i can also view the history and who was the perosn that made all the changes 
-                </p>
-            
-        </div>
+            <table>
+                <tr>
+                    <th></th>
+                    <th scope="col">Saturday</th>
+                    <th scope="col">Sunday</th>
+                </tr>
+                <tr>
+                    <th scope="row">Tickets Sold</th>
+                    <td>120</td>
+                    <td>135</td>
+                </tr>
+                <tr>
+                    <th scope="row">Total series</th>
+                    <td>$600</td>
+                    <td>$675</td>
+                </tr>
+            </table>
+        </section>
 
 
-        <!--Using Span for both rows and colums-->
+        <!--This is a recorded message for all my instagram followers which was really fun to do lol 😆-->
+        <section class="blackbox" id="Having_A_Little_Fun">
+            <h1>Sorry this is the heading loL 😂</h1>
+            <p>Hey every one this is my new code editor theme im really loving it so far especially with eh new git lens 
+                extension i installed in it its supper cool !!!!!
+            </p>
+            <p>
+                what i just showed you i show i am able to see any new changes to my file if anyone else is also 
+                working on the same file with me i think its really cool.
+                i can also view the history and who was the person that made all the changes 
+            </p>    
+        </section>
 
-        <div>
+
+            <!--Using Span for both rows and colums-->
+        <section class="Using_Colspan_and_Rowspan"> <!--This is using # rows or # columns merged together-->>
             <h1>Span Columns</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>9am</th>
-                        <th>10am</th>
-                        <th>11am</th>
-                        <th>12am</th>
-                    </tr>
-                    <tr>
-                        <th>Monday</th>
-                        <td colspan="2">Geography</td><!--When using the Spanning remember the amount of number placement is how many columns it will use-->
-                        <td>Math</td>
-                        <td>Art</td>
-                    </tr>
-                    <tr>
-                        <th>Tuesday</th>
-                        <td colspan="3">Gym</td>  <!--NOte that this one has less "td" thats because when it comes to using this you will end up taking off more rows-->
-                        <td>Home Ec</td>
-                    </tr>
-                </table>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>9am</th>
+                    <th>10am</th>
+                    <th>11am</th>
+                    <th>12am</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <td colspan="2">Geography</td><!--When using the Spanning remember the amount of number placement is how many columns it will use-->
+                    <td>Math</td>
+                    <td>Art</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td colspan="3">Gym</td>  <!--NOte that this one has less "td" thats because when it comes to using this you will end up taking off more rows-->
+                    <td>Home Ec</td>
+                </tr>
+            </table>
 
             <h1>Span Rows</h1>
+            <table>
+                <tr>
+                    <th>ABC</th>
+                    <th>BBC</th>
+                    <th>CNN</th>
+                </tr>
+                <tr>
+                    <th>6pm - 7pm</th>
+                    <td rowspan="2">Movie</td>
+                    <td>Comedy</td>
+                    <td>News</td>
+                </tr>
+                <tr>                                <!--Note that I didnt need to add another rowspan to this sense the one on top 
+                                                                    covered the entire 2 rows.-->
+                    <th>7pm - 8pm</th>
+                    <td>Sport</td>
+                    <td>Current Affairs</td>
+                </tr>
+            </table>
+        </section>
 
-                <table>
+
+    <!--This is the Long Tables using "<thead>", "tbody", "tfoot" how to us them to organize the table alot better and if its large how to make it 
+        alot more legible and understandable....-->
+        <section class="Long_Tables">
+            <h1>Long Tables</h1>
+            <table>
+                <thead>
                     <tr>
-                        <th>ABC</th>
-                        <th>BBC</th>
-                        <th>CNN</th>
+                        <th>Date</th>
+                        <th>Income</th>
+                        <th>Expenditure</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>1st January</th>
+                        <td>250</td>
+                        <td>36</td>
                     </tr>
                     <tr>
-                        <th>6pm - 7pm</th>
-                        <td rowspan="2">Movie</td>
-                        <td>Comedy</td>
-                        <td>News</td>
+                        <th>2nd January</th>
+                        <td>285</td>
+                        <td>48</td>
                     </tr>
-                    <tr>                                <!--Note that I didnt need to add another rowspan to this sense the one on top 
-                                                                        covered the entire 2 rows.-->
-                        <th>7pm - 8pm</th>
-                        <td>Sport</td>
-                        <td>Current Affairs</td>
+
+                    <h3 class="blackbox">There is more in between, but to save time I only did these three days......</h3>
+                    <!--Theres more here its supposed to be the hole month but for time to dave time im just keeping it short-->
+                    <tr>
+                        <th>31st January</th>
+                        <td>129</td>
+                        <td>64</td>
                     </tr>
-                </table>
+                </tbody>
 
-
-        </div>
-
-
-        <!--This is the Long Tables using "<thead>", "tbody", "tfoot" how to us them to organize the table alot better and if its large how to make it 
-            alot more legible and understandable....-->
-
-            <div>
-                <h1>Long Tables</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Income</th>
-                            <th>Expenditure</th>
-                        </tr>
-                    </thead>
-                        <tbody>
-                            <tr>
-                                <th>1st January</th>
-                                <td>250</td>
-                                <td>36</td>
-                            </tr>
-                            <tr>
-                                <th>2nd January</th>
-                                <td>285</td>
-                                <td>48</td>
-                            </tr>
-
-                            <h3 class="blackbox">There is more in between, but to save time I only did these three days......</h3>
-                            <!--Theres more here its supposed to be the hole month but for time to dave time im just keeping it short-->
-                            <tr>
-                                <th>31st January</th>
-                                <td>129</td>
-                                <td>64</td>
-                            </tr>
-                        </tbody>
-                    <tfoot>
-                        <tr>
-                            <td></td>
-                            <td>7824</td>
-                            <td>1241</td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-
-
-            <!--this is the final section the EXAMPLE TABLES EXERCISE this is the ending of chapter 6-->
-
-            <div>
-                <h1>Final Example Exercise</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th scope="col">Home Started Hosting</th>
-                            <th scope="col">Premium Business hosting</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Disk Space</th>
-                            <td>250mb</td>
-                            <td>1gb</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Bandwidth</th>
-                            <td>5gb per Month</td>
-                            <td>50gb per Month</td>
-                        </tr>
-                        <!-- more rows like the two above here -->
-                    </tbody>
-                    <tfoot>
+                <tfoot>
+                    <tr>
                         <td></td>
-                        <td colspan="2">Sign up now and save 10%!!</td>
-                    </tfoot>
-                </table>
-            </div>
+                        <td>7824</td>
+                        <td>1241</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+
+        <!--this is the final section the EXAMPLE TABLES EXERCISE this is the ending of chapter 6-->
+
+        <section class="Example_Exercise">
+            <h1>Final Example Exercise</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th scope="col">Home Started Hosting</th>
+                        <th scope="col">Premium Business hosting</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Disk Space</th>
+                        <td>250mb</td>
+                        <td>1gb</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bandwidth</th>
+                        <td>5gb per Month</td>
+                        <td>50gb per Month</td>
+                    </tr>
+                    <!-- more rows like the two above here -->
+                </tbody>
+                <tfoot>
+                    <td></td>
+                    <td colspan="2">Sign up now and save 10%!!</td>
+                </tfoot>
+            </table>
+        </section>
+    </main>
 
 </body>
 </html>
