@@ -5,44 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chapter 4</title>
-<style>
-div{
-    padding: 20px;
-}
-</style>
+    
+    <style>
+        div{
+            padding: 20px;
+        }
+    </style>
 
 </head>
 <body>
 
     <!--Links to other pages will take you to the home page of the
-         wesite or the specificed site only-->
-    <div>
+         website or the specified site only-->
+    <section>
         <h1>Link to other Sites</h1>
         <p>Movie Reviews</p>
-        <ul>
-            <li><a href="http://www.empireonline.com">
-                Empire</a></li>
-            <li><a href="http://www.metacritic.com">
-                Metacritic</a></li>
-            <li><a href="http://rottentomatoes.com">
-                Rotten Tomatoes</a></li>
-            <li><a href="http://www.variety.com">
-                Variety</a></li>
-        </ul>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="http://www.empireonline.com">Empire</a></li>
+                <li><a href="http://www.metacritic.com">Metacritic</a></li>
+                <li><a href="http://rottentomatoes.com">Rotten Tomatoes</a></li>
+                <li><a href="http://www.variety.com">Variety</a></li>
+            </ul>
+        </nav>
+    </section>
 
-    <!--Links to other pages on the smae site-->
+    <!--Links to other pages on the same site-->
 
     <section class="navigation">
         <h1>Same page links</h1>
-            <p>
+            <nav>
                 <ul>
                     <li><a href="index.html"></a>Home</li>
                     <li><a href="about-us.html">About</a></li>
                     <li><a href="movies.html">Movies</a>Movies</li>
                     <li><a href="contact.html">Contacts</a>Contact</li>
                 </ul>
-            </p>    
+            </nav>   
     </section>
 
 
@@ -50,65 +49,81 @@ div{
 
     <!--Email Links-->
 
-    <div>
+    <section class="Email_Link">
         <h1>Email Links</h1>
             <a href="mailto:abielortega90@gmail.com">Email Abiel</a>
-    </div>
+    </section>
 
 
 
     <!--Links that open new windows-->
 
-    <div>
+    <section class="OpenNewWindow">
         <h1>Opening links in a new window</h1>
         <a href="http://www.imdb.com" target="_blank">Internet Movie Database</a>(Opens a new window)
-    </div>
+    </section>
 
 
     <!--Linking to a specific part of the same page-->
-    <div>
-        <h1>"Linking to a specific part of the same page"</h1>
+    <section class="Adding_Anchors_to_spots_in_page">
+        <header>
+            <h1>"Linking to a specific part of the same page"</h1>
+        </header>
 
+        <main>
+            <h1 id="top">Film Making Terms</h1>
+            <a href="#arc_shot">Arc Shot</a><br />
+            <a href="#interlude">Interlude</a><br />
+            <a href="#prologue">Prologue</a>
+            <!--To add the links in anchors in the same page you will use the "id" attribute-->>
+            <h2 id="arc_shot">Arc Shot</h2>
+            <p>A shot in which the subject is photographed by an
+                encircling or moving camera
+            </p>
 
-        <h1 id="top">Film Making Terms</h1>
-        <a href="#arc_shot">Arc Shot</a><br />
-        <a href="#interlude">Interlude</a><br />
-        <a href="#prologue">Prologue</a>
-        <h2 id="arc_shot">Arc Shot</h2>
-        <p>A shot in which the subject is photographed by an
-            encircling or moving camera
-        </p>
-        <h2 id="interlude">Interlude</h2>
-        <p>A brief, intervening film scene or sequenc, not
-            specifically tied to the plot, that appears
-            within a film
-        </p>
-        <h2 id="prologue">Prologue</h2>
-        <p>A speech, preface, intoduction, or brife scene
-            preceding the main action or plot of a film;
-            contract to epilogue
-        </p>
-        <p><a href="#top">Top</a></p>
-    </div>
+            <h2 id="interlude">Interlude</h2>
+            <p>A brief, intervening film scene or sequenc, not
+                specifically tied to the plot, that appears
+                within a film
+            </p>
+
+            <h2 id="prologue">Prologue</h2>
+            <p>A speech, preface, intoduction, or brife scene
+                preceding the main action or plot of a film;
+                contract to epilogue
+            </p>
+        </main>
+
+        <footer>
+            <p><a href="#top">Top</a></p>
+        </footer>
+    </section>
 
 
     <!--THis is the example -->
-<div>
-    <h1 id="top">Film Folk</h1>
-    <h2>Festival Diary</h2>
-    <p>Here are some of the film festivals we will be attending this year <br />
-    Please <a href="mailto:filmfolk@example.org">Contact Us</a> if you would like more information</p>
-    <h3>January</h3>
-    <p><a href="http://www.sundance.org">Sundance Film Festival</a><br />Park City. Utah. USA <br />
-    20 - 30 Janurary 2011</p>
-    <h3>Feburary</h3>
-    <p><a href="http://www.tropfest.com">Tropfest</a><br />
-    Syndey Australia <br />
-    20 Feburay </p>
+<section class="Example">
+    <header>
+        <h1 id="top">Film Folk</h1>
+    </header>
+    <main>
+        <h2>Festival Diary</h2>
+        <p>Here are some of the film festivals we will be attending this year <br />
+        Please <a href="mailto:filmfolk@example.org">Contact Us</a> if you would like more information</p>
+        <h3>January</h3>
+        <p><a href="http://www.sundance.org">Sundance Film Festival</a><br />Park City. Utah. USA <br />
+        20 - 30 Janurary 2011</p>
+        <h3>Feburary</h3>
+        <p><a href="http://www.tropfest.com">Tropfest</a><br />
+        Syndey Australia <br />
+        20 Feburay </p>
+    </main>
+
     <!--adiitianl content-->
-    <p><a href="about.html">About Film Folk</a></p>
-    <p><a href="#top">Top of page</a></p>
-</div>
+    <footer>
+        <p><a href="about.html">About Film Folk</a></p>
+        <p><a href="#top">Top of page</a></p>
+    </footer>
+</section>
 
 
 </body>
