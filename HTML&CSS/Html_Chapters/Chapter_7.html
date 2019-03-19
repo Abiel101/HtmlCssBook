@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chapter 7</title>
     <style>
-        div{
+        section{
         border: solid black 1px;
         margin: 20px;
         padding: 20px;
@@ -24,36 +24,50 @@ so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
 
 
 <body>
+
     <!--Form Structre "form"-->
-    <div>
-        <h1>Form Structure</h1>
+    <section>
+        <header>
+            <h1>Form Structure</h1>
+        </header>
 
         <form action="">
-            <p>This is where the form controls will appear</p>
+            <p>This is where the form controls will appear you may not see it but in 
+                the code this paragraph is inside the form.
+            </p>
         </form>
-    </div>
+    </section>
 
 
 
     <div class="blackbox">
-        <h2>Input text types</h2>
+        <h1>Input text types</h1>
     </div>
 
-    <!--Text inputs this is adding contorls for the form were we can add text-->
 
-    <div>
-        <h1>Text Input</h1>
+
+    <!--Text inputs this is adding controls for the form were we can add text-->
+    <section class="Text Inputs">
+        <header>
+            <h1>Text Input</h1>
+        </header>
+
         <form action="">
             <p> Username: 
             <input type="text">
             </p>
         </form>
-    </div>
+    </section>
 
 
-    <div>
-        <h1>Password inputs</h1>
-        <!-- Dont for get that using the maxlength will help you have a limit to the input-->
+
+    <!--Password Inputs-->
+    <section class="Password Inputs">
+        <header>
+            <h1>Password inputs</h1>
+        </header>
+
+        <!-- Dont for get that using the maxlength will help you have a limit to the inputs length characters needed-->
         <form action="">
             <p> Username:
             <input type="text" name="username" maxlength="8"><!--Maxlength is for you to add an amount on a password or username-->
@@ -62,47 +76,52 @@ so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
             <input type="password" name="password" maxlength="8">
             </p>
         </form>
-    </div>
+    </section>
+
 
 
     <!--This is the textarea attribute it is used to add multiple lines of text to a for much like a comment section on a website-->
+    <section class="Text Area">
+        <header>
+            <h1>Text Area</h1>
+        </header>
 
-    <div>
-        <h1>Text Area</h1>
         <form action="">
             <p>What did you think of this gig?</p>
             <textarea name="comments" cols="30" rows="10">Enter your comments...</textarea>
         </form>
-    </div>
+    </section>
 
 
 
-    <div class="blackbox">
-        <h1>Select Attribute</h1>
-    </div>
-    <!-- These are radio buttons that will help us to give  user an option between different things if the list is not long long -->
-    <div>
-        <h1>Radio Button</h1>
+<!--Select attribute-->
+    <section class="Select Attributes">
+        <header>
+            <h1>Select Attribute</h1>
+        </header>
 
-        <form action="">
-            <p> Please select your favorite genre:
-            <br>
-            <input type="radio" name="genre" value="rock" checked="checked"/>
-            Rock
-            <input type="radio" name="genre" value="pop"/>
-            Pop
-            <input type="radio" value="genre" value="
-            Jazz"/> Jazz
-            </p>
-
-        </form>
-    </div>
+        <!-- These are radio buttons that will help us to give  user an option between different things if the list is not long long -->
+            <h3>Radio Button</h3>
+            <form action="">
+                <p> Please select your favorite genre:
+                <br>
+                <input type="radio" name="genre" value="rock" checked="checked"/>
+                Rock
+                <input type="radio" name="genre" value="pop"/>
+                Pop
+                <input type="radio" value="genre" value="
+                Jazz"/> Jazz
+                </p>
+            </form>
+    </section>
 
 
     <!--This is a check box this one lets you check more than one option in the option that are given to you-->
+    <section class="Check Box">
+        <header>
+            <h1>Check Box</h1>
+        </header>
 
-    <div>
-        <h1>Check Box</h1>
         <form action="">
             <p>Please select your favorite music Service(s)
                 <br/ >
@@ -111,14 +130,17 @@ so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
                 <input type="checkbox" name="services" value="spotify"> Spotify
             </p>
         </form>
-    </div>
+    </section>
+
 
 
     <!--This is the drop down list box or more or less the select box that give you multiple option 
     to select from when it comes to adding a list of things like having the months listed to choose your bday or something-->
+    <section class="Drop Down List Box">
+        <header>
+            <h1>Drop Down List Box</h1>
+        </header>
 
-    <div>
-        <h1>Drop Down List Box</h1>
         <form action="">
             <p>What device do you listen to music on??</p>
             <select name="devices" id="">
@@ -127,100 +149,83 @@ so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
                 <option value="computer">Computer</option>
             </select>
         </form>
-    </div>
+    </section>
 
 
 
     <!--This is the multiple Select box-->
+    <section class="Multiple Select Box">
+        <header>
+            <h1>Multiple Select Box</h1>
+        </header>
 
-    <div>
-        <h1>Multiple Select Box</h1>
         <form action="">
             <p>Do you play any of the following instruments?
                 (you can select more than one option by holding down control on a PC 
-                command key on a Mac while selecting different options.)
-            </p>
+                command key on a Mac while selecting different options.)</p>
             <select name="instruments" size="3" multiple="multiple">
-                <option value="guitar" selected="selected">
-                    Guitar</option>
+                <option value="guitar" selected="selected">Guitar</option><!--Selected means the option by default is selected..-->
                 <option value="durms">Drums</option>
-                <option value="keyboard"
-                selected="selected">Keyboard</option>
+                <option value="keyboard" selected="selected">Keyboard</option>
                 <option value="bass">Bass</option>
             </select>
         </form>
-    </div>
+    </section>
 
 
-    <!--File input box this is were you can upload new pictures or files with this-->
-    <div>
-        <div class="blackbox">
+
+        <!--File input box this is were you can upload new pictures or files with this-->
+    <section class="File Input Box">
+        <header>
             <h1>File Input Box</h1>
-        </div>
+        </header>
 
-        <div>
-            <form action="">
-                <p>Upload your song in MP3 format:</p>
-                <input type="file" name="user-song" /><br />
-                <input type="submit" value="Upload">
-            </form>
-        </div>
-    </div>
+        <form action="">
+            <p>Upload your song in MP3 format:</p>
+            <input type="file" name="user-song" /><br />
+            <input type="submit" value="Upload">
+        </form>
+    </section>
 
 
 
+        <!-- Submit Button-->
+    <section class="Submit Button">
+        <header>
+            <h1>Submit Button</h1>
+        </header>
 
-
-
-    <!-- Submit Button-->
-
-    <div class="blackbox">
-        <h1>Submit Button</h1>
-    </div>
-
-    <!--Remember that the value that you give it is the name that it will have in text for the button-->
-<div>
-    <div>
+        <!--Remember that the value that you give it is the name that it will have in text for the button-->
         <form action="">
             <p>Subscribe to our email list:</p>
             <input type="text" name="email">
             <input type="submit" name="subscribe" value="Subcribe"/>    <!--Value affects the name of the text on the button-->
         </form>
-    </div>
-</div>
+    </section>
 
 
 
+    <!--this is how you add an image button using HTML-->
+    <section class="Image to Button">
+        <header>
+            <h1>Image Button</h1>
+        </header>
+
+        <form action="">
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email">
+            <input type="image" src="../Images/Red_back.jpg" width="100" height="20" />
+        </form>
+    </section>
 
 
 
-
-<!--this is how you add an image button using HTML-->
-
-<div class="blackbox">
-    <h1>Image Button</h1>
-</div>
-
-<div>
-    <form action="">
-        <p>Subscribe to our email list:</p>
-        <input type="text" name="email">
-        <input type="image" src="../Images/Red_back.jpg" width="100" height="20" />
-    </form>
-</div>
-
-
-
-
-
-
-
-<!--Button & hidden controls -->
-
-<div>
-    <h1>Button & hidden controls</h1>
-    
-
+    <!--Button & hidden controls -->
+    <section class="Buttons & hidden controls">
+        <header>
+            <h1>Button & hidden controls</h1>
+        </header>
+        
         <form action="">
             <button>
             <img src="../Images/Plus.png" alt="add" width="10"
@@ -228,48 +233,46 @@ so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
                     both images and text in this button "make sure that the sizign is correct
                     from the beginning so that it look good from the start"-->
 
-
-
-                <input type="hidden" name="bookmark" value="lyrics" /><!--Remember this is a hidden attribute for hidden information 
-
+            <input type="hidden" name="bookmark" value="lyrics" /><!--Remember this is a hidden attribute for hidden information 
                     "example a webpage author might use a hidden field to indicate which page the user was on when they submitted a form"-->
 
-
-                <button>
+            <button>
                 <img src="../Images/WaterMarkBlack.png" alt="add" width="10" height="10" />
-                 Logo</button><!--Remember that this will be linked at to the backend 
+                Logo
+            </button><!--Remember that this will be linked at to the backend 
                 to a server that will help you to actually link the button to something so it has
             another function-->
         </form>
-    
-</div>
+    </section>
 
 
 
-<!--Labeling form Controls-->
+    <!--Labeling form Controls-->
+    <section class="Labeling Form Controls">
+        <header>
+            <h1>Labeling Form Controls</h1>
+        </header>
 
-<div>
-    <h1>Labeling Form Contorls</h1>
-
-    <label>Age: <input type="text" name="age" /></label>
-    <br />
-    Gender:
-    <input id="female" type="radio" name="gender" value="f">
-    <label for="female">Female</label>
-    <input id="male" type="radio" name="gender" value="m">
-    <label for="male">Male</label>
-</div>
+        <label>Age: <input type="text" name="age" /></label>
+        <br />
+        Gender:
+        <input id="female" type="radio" name="gender" value="f"><!--Add the "for" attribute helps the database know what goes with what.. -->
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+    </section>
 
 
 
 
-<!--Grouping form elements-->
-
-    <div>
-        <h1>Grouping Form Elements</h1>
+    <!--Grouping form elements-->
+    <section class="Grouping Form Element">
+        <header>
+            <h1>Grouping Form Elements</h1>
+        </header>
 
         <fieldset>
-            <legend>Contact details</legend>
+            <legend>Contact details</legend><!--Legend adds a title to the section or form Box-->
             <label>Email: <br />
             <input type="text" name="email"></label><br />
             <label>Mobile:<br />
@@ -277,180 +280,167 @@ so huge note LEARN THE TYPES AND LEARN WHAT IS WHAT FOR WHAT!!!!!-->
             <label>Telephone: <br />
             <input type="text" name="telephone"></label>
         </fieldset>
+    </section>
 
+
+
+    <!--Form Validation "this is for us to be able to know or set a request for the user to have put a password or the information that is asked from them "-->
+    <section class="Validation">
+        <header>
+            <h1>Form Validation</h1>
+        </header>
+        
+        <form action="http:// www.Username.com" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username"
+            required="required" /><br /> <!-- The required attribute will help you be able to tell your users to enter something or else they cant go on
+            forward to the things that they want to do unless they fill in the required information-->
+
+            <!--Also remember that you also need to add the server side part where you would use php or java even python doesn't matter 
+            but remember you also need to set some stuff in the server side-->
+            <label for="password">Password:</label>
+            <input type="password" name="password" 
+            required="required" />
+            <input type="submit" name="submit" value="Submit" />
+        </form>
+    </section>
+
+
+
+
+
+    <!--DATE INPUTS-->
+    <section class="Date_Inputs">
+        <header>
+            <h1>Date Inputs</h1>
+        </header>
+
+        <form action="" method="POST">
+            <label for="depart">Depart</label>
+            <input type="date" name="depart">
+            <input type="submit" value="submit">
+        </form>
     </div>
 
 
 
+    <!--Emails and URl inputs-->
+    <section class="Email_&_Urls">
+        <header>
+            <h1>Email and URL inputs</h1>
+        </header>
+
+        <form action="">
+            <p>Please enter your email address:</p>
+            <input type="email" name="email" />
+            <input type="submit" value="Submit" />
+        </form>
+
+        <form action="">
+            <p>Please enter your website address:</p>
+            <input type="url" name="website">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+    <!--This is how you make a search area for the website-->
+    <section class="Search_Input">
+        <header>
+            <h1>Search input</h1>
+        </header>
+
+        <form action="">
+            <p>Search:</p>
+            <input type="search" name="search">
+            <input type="submit" value="Search">
+        </form>
+
+        <form action="">
+            <p>Search:</p>
+            <input type="search" name="search"
+            placeholder="Enter Key Word">
+            <input type="submit" value="Search">
+        </form>
+    </section>
 
 
 
 
 
-<!--Form Validation "this is for us to be able to know or set a request for the user to have put a password or the information that is asked from them "-->
+    <!--FINAL EXAMPLE OF THE FORMS-->
+    <section class="Example">
+        <header>
+            <h1>Final Example</h1>
+        </header>
 
-<div>
-    <h>Form Validation</h>
-    
-    <form action="http:// www.Username.com" method="post">
-        <label for="username">Username:</label>
-        <input type="text" name="username"
-        required="required" /><br /> <!-- The required attribute will help you be able to tell your users to enter something or else they cant go on
-        forward to the things that they want to do unless they fill in the required information-->
-
-        <!--Also remember that you also need to add the server side part where you would use php or java even python doesn't matter 
-        but remember you also need to set some stuff in the server side-->
-        <label for="password">Password:</label>
-        <input type="password" name="password" 
-        required="required" />
-        <input type="submit" name="submit" value="Submit" />
-    </form>
-</div>
-
-
-
-
-
-<!--DATE INPUTS-->
-
-<div>
-    <h1>Date Inputs</h1>
-
-    <form action="" method="POST">
-        <label for="depart">Depart</label>
-        <input type="date" name="depart">
-        <input type="submit" value="submit">
-    </form>
-</div>
-
-
-
-<!--Emails and URl inputs-->
-
-<div>
-    <h1>Email and URL inputs</h1>
-    <form action="">
-        <p>Please enter your email address:</p>
-        <input type="email" name="email" />
-        <input type="submit" value="Submit" />
-    </form>
-    <form action="">
-        <p>Please enter your website address:</p>
-        <input type="url" name="website">
-        <input type="submit" value="Submit">
-    </form>
-</div>
-
-
-<!--This is how you make a search area for the website-->
-
-<div>
-    <h1>Search input</h1>
-
-    <form action="">
-        <p>Search:</p>
-        <input type="search" name="search">
-        <input type="submit" value="Search">
-    </form>
-
-    <form action="">
-        <p>Search:</p>
-        <input type="search" name="search"
-        placeholder="Enter Key Word">
-        <input type="submit" value="Search">
-    </form>
-</div>
-
-
-
-
-
-<!--FINAL EXAMPLE OF THE FORMS-->
-
-
-
-
-
-<div>
-    <h1>Final Example</h1>
-
-
-    <form action="" method="GET">
-        <fieldset>
-            <legend>
-                Your Details:
-            </legend>
-            <label for="">
-                Name:
-                <input type="text" name="name" size="30" maxlength="100">
-            </label>
-
-            <br>
-                                                                        <!--This is the first part first fieldset of the form-->
-            <label for="">
-                Email:
-                <input type="email" name="email" size="30" maxlength="100">
-            </label>
-            <br>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>
-                Your Review:
-            </legend>
-            <p>
-                <label for="hear-about">
-                    How did you hear about us?
-                </label>
-                <select name="referrer" id="hear-about">
-                    <option value="google">Google</option>
-                    <option value="friend">Friend</option>
-                    <option value="advert">Advert</option>
-                    <option value="about">About</option>
-                </select>
-            </p>
-            <p>
-                Would you visit again?
+        <main>
+            <form action="" method="GET">
+                <fieldset>
+                    <legend>
+                        Your Details:
+                    </legend>
+                    <label for="">
+                        Name:
+                        <input type="text" name="name" size="30" maxlength="100">
+                    </label>
+                    <br>
+                    <!--This is the first part first fieldset of the form-->
+                    <label for="">
+                        Email:
+                        <input type="email" name="email" size="30" maxlength="100">
+                    </label>
+                    <br>
+                </fieldset>
                 <br>
-                <label>
-                    <input type="radio" name="rating" value="Yes">
-                    Yes
-                </label>
-                    <input type="radio" name="rating" value="No">
-                <label>
-                    No
-                </label>
-                    <input type="radio" name="rating" value="Maybe">
-                <label>
-                    Maybe
-                </label>
-            </p>
-            <p>
-                <label for="comments">
-                    Comments:
-                </label>
-                <br>
-                <textarea  cols="40" rows="4" id="comments">
-                </textarea>
-            </p>
+                <fieldset>
+                    <legend>
+                        Your Review:
+                    </legend>
+                    <p>
+                        <label for="hear-about">
+                            How did you hear about us?
+                        </label>
+                        <select name="referrer" id="hear-about">
+                            <option value="google">Google</option>
+                            <option value="friend">Friend</option>
+                            <option value="advert">Advert</option>
+                            <option value="about">About</option>
+                        </select>
+                    </p>
+                    <p>
+                        Would you visit again?
+                        <br>
+                        <label>
+                            <input type="radio" name="rating" value="Yes">
+                            Yes
+                        </label>
+                            <input type="radio" name="rating" value="No">
+                        <label>
+                            No
+                        </label>
+                            <input type="radio" name="rating" value="Maybe">
+                        <label>
+                            Maybe
+                        </label>
+                    </p>
+                    <p>
+                        <label for="comments">
+                            Comments:
+                        </label>
+                        <br>
+                        <textarea  cols="40" rows="4" id="comments"></textarea>
+                    </p>
 
-            <label>
-                <input type="checkbox" name="subscribe" checked="checked">
-                Sign me up for email updates
-            </label>
-            <input type="submit" value="Submit Review">
-        </fieldset>
-    </form>
-
-
-</div>
-
-
-
-
-
-
-
-
+                    <label>
+                        <input type="checkbox" name="subscribe" checked="checked">
+                        Sign me up for email updates
+                    </label>
+                    <input type="submit" value="Submit Review">
+                </fieldset>
+            </form>
+        </main>
+    </section>
 </body>
 </html>
