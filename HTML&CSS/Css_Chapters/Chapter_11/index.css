@@ -33,3 +33,20 @@
   background-color: white;
   padding: 10px;
 }
+
+
+/*Opacity and RGBA coloring*/
+/*Opacity -> affects elements and children*/
+.one{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+/*RGBA -> affects only element that its applied to*/
+.two{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
