@@ -50,3 +50,11 @@
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+/*This is the hsl and hsla in css*/
+
+p .hsl{
+  background-color: #ffffff;
+  background-color: hsla(0, 100%, 100%, 0.5);
+}
