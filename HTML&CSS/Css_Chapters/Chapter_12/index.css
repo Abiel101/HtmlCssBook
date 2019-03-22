@@ -1,0 +1,12 @@
+/*default for all chapters from now on.*/
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 50%;
+}
