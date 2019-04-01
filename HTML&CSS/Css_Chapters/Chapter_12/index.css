@@ -18,7 +18,7 @@
 /*|*/ }                                                     /*|*/
 /*|*/                                                       /*|*/
 /*|*/ section{                                              /*|*/
-/*|*/   margin-left: 10px;                                  /*|*/
+/*|*/   margin: 10px;                                       /*|*/
 /*|*/   border: solid black 1px;                          /*|*/
 /*|*/   padding: 10px;                                      /*|*/
 /*|*/   width: 97%;                                         /*|*/
@@ -35,6 +35,8 @@
 .credits{
   font-family: "Courier New", Courier, monospace;
 }
+
+
 /*font size*/ /*NOTE: Font sizes in percentages and in em's will be based off of the original size of the 
 font size of the page. In this case we changes it to be 12px, 200% of 12px = 24px so based on the bodies font size.*/
 h2{
@@ -60,4 +62,43 @@ are compatible with all browsers.*/
 .fontFamily{
   font-family: 'ChunkFiveRegular', Georgia, serif;
 }
+
+
+/*Bold and Italic*/
+
+#bold{
+  font-weight: bold;
+}
+#italic{
+  font-style: italic;
+}
+
+/* Text Tranform */
+#uppercase{
+  text-transform: uppercase;
+}
+#lowercase{
+  text-transform: lowercase;
+}
+#capitalize{ /*look at the html text carefully on this one*/
+  text-transform: capitalize;
+}
+/* Text Decoration */
+#none{
+  text-decoration: none;
+}
+#underline{
+  text-decoration: underline;
+}
+#overline{
+  text-decoration: overline;
+}
+#lineThrough{
+  text-decoration: line-through;
+}
+#blink{
+  text-decoration: blink; /*This one doesn't appear.*/
+}
+
+
 
