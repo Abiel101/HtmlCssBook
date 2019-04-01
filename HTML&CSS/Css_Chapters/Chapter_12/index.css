@@ -45,3 +45,19 @@ h3{
 }
 
 
+
+/* Using Font Face URL linking from google or using linked fonts
+
+NOTE: When using fonts, different browsers use different font formats and that will depends on the
+browser and so because of that you'll need to add multiple formats that 
+are compatible with all browsers.*/
+
+@font-face{
+  font-family: 'ChunkFiveRegular';
+  src: url('fonts/chunkfive.eot');
+}
+
+.fontFamily{
+  font-family: 'ChunkFiveRegular', Georgia, serif;
+}
+
