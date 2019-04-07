@@ -49,7 +49,6 @@ h3{
 
 
 /* Using Font Face URL linking from google or using linked fonts
-
 NOTE: When using fonts, different browsers use different font formats and that will depends on the
 browser and so because of that you'll need to add multiple formats that 
 are compatible with all browsers.*/
@@ -82,6 +81,7 @@ are compatible with all browsers.*/
 #capitalize{ /*look at the html text carefully on this one*/
   text-transform: capitalize;
 }
+
 /* Text Decoration */
 #none{
   text-decoration: none;
@@ -100,4 +100,20 @@ are compatible with all browsers.*/
 }
 
 
+/* Text Align */
+#left{
+  text-align: left;
+}
+#right{
+  text-align: right;
+}
+#center{
+  text-align: center;
+}
+#justify{
+  text-align: justify;
+}
 
+/* Vertical Align Is basically used for images that 
+you add text to and this vertical align is to be able to align
+everything in the vertical direction. */
