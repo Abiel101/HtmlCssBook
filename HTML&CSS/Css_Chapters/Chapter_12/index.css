@@ -117,3 +117,10 @@ are compatible with all browsers.*/
 /* Vertical Align Is basically used for images that 
 you add text to and this vertical align is to be able to align
 everything in the vertical direction. */
+
+
+/*Indenting Text*/
+#indented{
+  color: purple;
+  text-indent: 20px;
+  }
