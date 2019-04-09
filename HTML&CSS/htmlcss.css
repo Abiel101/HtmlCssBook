@@ -69,10 +69,10 @@ div.content{
     text-align: center;
 }
 
-.one{
+.nav{
   position: relative;
 }
-.one::before{
+.nav::before{
   content: '';
   position: absolute;
   width: 100%;
@@ -84,7 +84,7 @@ div.content{
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.one:hover::before{
+.nav:hover::before{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
