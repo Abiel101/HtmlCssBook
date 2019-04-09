@@ -8,40 +8,10 @@ body{
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul{
-	color: White;
-	list-style-type: none;
-	padding: 0;
-    margin: 0;
-}
-
-li{
- display: inline;
- padding: 5px 20px 5px 20px;
-}
-
-li:hover{
-    background: white;
-    color: black;
-}
-
-div.content{
-    position: absolute;
-    top: 70%;
-    left: 46%;
-    width: 150px;
-    margin:0 auto;
-    text-align: center;
-}
-
 .container{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -58,7 +28,7 @@ div.content{
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: #a12a2a;
+    background: #1d1b1b;
     position: relative;
     animation: text 2s 1;
 
@@ -69,6 +39,53 @@ div.content{
     font-size: 30px;
     color: #6ab04c;
     animation: animate 6s ease-in 1s infinite;
+}
+
+
+
+
+ul{
+	color: White;
+	list-style-type: none;
+	padding: 0;
+    margin: 0;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+li{
+ display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+div.content{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.one{
+  position: relative;
+}
+.one::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  animation: underline 2s ease-in 1s infinite;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.one:hover::before{
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 
@@ -106,6 +123,22 @@ put the animation first and the you place it where you want it yo be used in wha
     }
     100%{      
         color: #03a9f4;
+    }
+
+}
+@keyframes underline{
+
+    0%{
+        background-color: #03a9f4;
+    }
+    35%{
+        background-color: #f441a5;
+    }
+    65%{      
+        background-color: #ffeb3b;
+    }
+    100%{      
+        background-color: #03a9f4;
     }
 
 }
