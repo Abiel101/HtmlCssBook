@@ -124,3 +124,42 @@ everything in the vertical direction. */
   color: purple;
   text-indent: 20px;
   }
+
+
+  /* Drop Shadow */
+
+p.one{
+  background-color: #eeeeee;
+  color: #666666;
+  text-shadow: 1px 1px 0px #000000;
+  margin: 0;
+  padding: 10px;
+}
+p.two{
+  background-color: #dddddd;
+  color: #666666;
+  text-shadow: 1px 1px 3px #666666;
+  margin: 0;
+  padding: 10px;
+}
+p.three{
+  background-color: #cccccc;
+  color: #ffffff;
+  text-shadow: 2px 2px 7px #111111;
+  margin: 0;
+  padding: 10px;
+}
+p.four{
+  background-color: #bbbbbb;
+  color: #cccccc;
+  text-shadow: -1px -2px #666666;
+  margin: 0;
+  padding: 10px;
+}
+p.five{
+  background-color: #aaaaaa;
+  color: #ffffff;
+  text-shadow: -1px -1px #666666;
+  margin: 0;
+  padding: 10px;
+}
