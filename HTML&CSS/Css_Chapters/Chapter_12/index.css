@@ -169,3 +169,13 @@ p.five{
   margin: 0;
   padding: 10px;
 }
+
+
+
+/*First Letter or Line*/
+.first-letter:first-letter{
+  font-size: 200%;
+}
+.first-line:first-line{
+  font-weight: bold;
+}
