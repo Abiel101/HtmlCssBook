@@ -1,4 +1,5 @@
 {
   "editor.fontLigatures": true,
-  "zenMode.hideTabs": false
+  "zenMode.hideTabs": false,
+  "editor.cursorWidth": 3
 }

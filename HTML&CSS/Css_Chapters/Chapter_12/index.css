@@ -179,3 +179,36 @@ p.five{
 .first-line:first-line{
   font-weight: bold;
 }
+
+
+/* Styling Link On The Page */
+
+ul{
+  list-style-type: none;
+}
+a{
+  padding: 10px;
+  border-radius: 25px;
+}
+li{
+  padding: 10px;
+}
+
+.link:link{
+  color: #A85DFF;
+  text-decoration: none;
+}
+.link:hover{
+  color: #5fac63;
+  text-decoration: underline;
+}
+.link:active{ /* This one what it does is that it activates when you click on the link. Kinda like javascripts onClick */
+  color: white;
+  background-color: black;
+}
+.link:visited{
+  color: red;
+}
+.link:focus{
+  color: #A85DFF;
+}
