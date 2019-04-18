@@ -54,20 +54,19 @@ nav.content{
     position: absolute;
     top: 40%;
     left: 35%;
-    margin:0 auto;
     text-align: center;
 }
 
 ul{
 	color: White;
 	list-style-type: none;
-    letter-spacing: 10px;
+    letter-spacing: 0.6rem;
     width: 400px;
 }
 
 li{
-    padding: 5px;
-    font-size: 20px;
+    padding: 0.5%;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 
@@ -97,10 +96,10 @@ nav ul li:hover ul{
 a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 1em;
     word-spacing: 0px;
     letter-spacing: 1px;
-    padding: 5px;
+    padding: 0.5%;
 }
 
 .nav{
@@ -126,7 +125,7 @@ a{
 
 
 /*so to make animations you 
-put the animation first and the you place it where you want it yo be used in what you want it to be used on THATS AWESOME!!!*/
+put the animation first and then you place it where you want it yo be used in what you want it to be used on THATS AWESOME!!!*/
 
 
 @keyframes text{
