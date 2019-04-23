@@ -1,0 +1,21 @@
+
+/* Box Dimansions */
+.dimensions{
+  height: 300px;
+  width: 400px;
+  background-color: #ee3e80; 
+}
+.dimensions p{
+  height: 75%;
+  width: 75%;
+  background-color: #e1ddda;
+}
+
+
+/* Limitng Width */
+
+.limiting{
+  border: solid black 1px;
+  min-width: 100px;
+  max-width: 500px;
+}
