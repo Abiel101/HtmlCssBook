@@ -13,9 +13,15 @@
 
 
 /* Limitng Width */
-
-.limiting{
-  border: solid black 1px;
+.width{
   min-width: 100px;
   max-width: 500px;
+}
+
+/* Height Limiting Max and Min Height */
+p .height{
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 500px;
 }
