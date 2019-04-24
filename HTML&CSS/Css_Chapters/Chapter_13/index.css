@@ -13,15 +13,25 @@
 
 
 /* Limitng Width */
-.width{
+#width{
   min-width: 100px;
   max-width: 500px;
 }
 
 /* Height Limiting Max and Min Height */
-p .height{
-  min-width: 50px;
-  max-width: 50px;
-  min-height: 50px;
-  max-height: 500px;
+#height1{
+  padding: 5px;
+  margin: 5px;
+  border: solid black 1px;
+  max-width: 60%;
+  max-height: 100px;
+  overflow: hidden;
+}
+#height2{
+  padding: 10px;
+  margin: 5px;
+  border: solid black 1px;
+  max-width: 40%;
+  max-height: 100px;
+  overflow: scroll;
 }
