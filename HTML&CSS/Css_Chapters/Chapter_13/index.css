@@ -37,17 +37,62 @@
 }
 
 /* Border width, style, color and shorthand */
-.border1{}
-.border2{}
-.border3{}
-.border4{}
-.border5{}
-.border6{}
-.border7{}
-.border8{}
-.border9{}
-.border10{}
-.border11{}
-.border12{}
-.border13{}
-.border14{}2
+/* This is the 2nd class name and I changed all of them at once and still gave them there own separate properties */
+.edge{ 
+  width: 20%;
+  padding: 5px;
+}
+
+/* Border Width */
+.border1{
+  border-style: solid;
+  border-width: 2px;
+}
+.border2{
+  border-style: solid;
+  border-width: thick;
+}
+.border3{
+  border-style: solid;  
+  border-width:  1px 4px 12px 2px;
+}
+
+
+/* border-style */
+.border4{
+  border-style: solid;
+}
+.border5{
+  border-style: dotted;
+}
+.border6{
+  border-style: dashed;
+}
+.border7{
+  border-style: double;
+}
+.border8{
+  border-style: groove;
+}
+.border9{
+  border-style: ridge;
+}
+.border10{
+  border-style: inset;
+}
+.border11{
+  border-style: outset;
+}
+
+/* border color */
+.border12{
+  border-style: solid;
+  border-color: #0088dd;
+}
+.border13{
+  border-style: solid;
+  border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+.border14{
+  border: 3px dotted #0088dd;
+}
