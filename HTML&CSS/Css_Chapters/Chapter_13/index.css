@@ -96,3 +96,29 @@
 .border14{
   border: 3px dotted #0088dd;
 }
+
+/* Padding and Margin */
+.padding_margin p{
+  border: solid 2px #6752c5;
+  width: 300px;
+}
+ /* padding */
+ .padding2{
+   padding: 10px;
+ }
+
+ /* margin */
+ .margin1, .margin2{
+   padding: 10px;
+ }
+ .margin2{
+   margin: 20px;
+ }
+
+ /* centering */
+ .centering1, .centering2{
+   padding: 10px;
+ }
+ .centering2{ /* Make sure when using this method of centering you give a width so it is able to be centered. */
+   margin: 10px auto;
+ }
