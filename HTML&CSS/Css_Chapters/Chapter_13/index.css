@@ -122,3 +122,39 @@
  .centering2{ /* Make sure when using this method of centering you give a width so it is able to be centered. */
    margin: 10px auto;
  }
+
+
+ /* Display and Visibility */
+
+ .inline li{
+   display: inline;
+ }
+
+ /* I made inline elements act like block elements. */
+ .block span{
+   display: block;
+ }
+
+ /* This one permits you to keep some properties of a block display */
+ .inline-block li{
+   display: inline-block;
+ }
+
+/* In this one I hide the second and forth elements and hover over a button and theyll appear */
+.none li{
+  display: inline;
+}
+.none a{
+  padding: 0 10px;
+}
+.none #none{
+  display: none;
+}
+
+/* In this one I have a hidden element */
+.visibility li{
+  display: inline;
+}
+.visibility #hidden{
+  visibility: hidden;
+}
