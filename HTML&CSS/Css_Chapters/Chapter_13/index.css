@@ -1,3 +1,7 @@
+/* body{
+  background-color: black;
+  color: white;
+} */
 
 /* Box Dimansions */
 .dimensions{
@@ -173,6 +177,6 @@
 .box-shadow1{
   width: 100px;
   height: 100px;
-  border: solid 1px black;
-  box-shadow: -2px 2px 10px black;
+  border: solid 1px white;
+  box-shadow: -2px 2px 10px red;
 }
