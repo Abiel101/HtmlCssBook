@@ -158,3 +158,21 @@
 .visibility #hidden{
   visibility: hidden;
 }
+
+
+/* Border-Image and Boc-Shadows */
+/* Border-Image */
+.border-image1, .border-image2{
+  width: 300px;
+  height: 300px;/* This is importntan to know you need to set the size of the box and also give it a border so its able to place the image */
+  border: solid black 50px;
+  border-image: url(circle.png) 50 50 50 50 stretch;
+}
+
+/* Box Shadown */
+.box-shadow1{
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-shadow: -2px 2px 10px black;
+}
