@@ -71,3 +71,8 @@ a:hover, a.on{ /*This is a cool way of adding the effect of an active link which
   color: #cc3333;
   background-color: #fff;
 }
+
+
+.para{
+  font-size: 10px;
+}
