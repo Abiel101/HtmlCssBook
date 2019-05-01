@@ -1,0 +1,73 @@
+body{
+  font-size: 80%;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.15em;
+  background-color: #efefef;
+}
+
+
+#page{
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 4px double #000000;
+  background-color: #ffffff;
+}
+
+#logo{
+  width: 150px;
+  margin: 10px auto 25px auto;
+  text-align: center;
+  font-weight: lighter;
+}
+.top{
+  color: #656565;
+  letter-spacing: 10px;
+  margin: 0px;
+  padding: 0px 0px 0px 50%;
+}
+.analog{
+  letter-spacing: 10px;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+.spacing{
+  color: #656565;
+  letter-spacing: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+ul{
+  width: 570px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+li{
+  display: inline;
+  margin: 0px 3px;
+}
+p{
+  text-align: center;
+  width: 600px;
+  margin: 20px auto 20px auto;
+  font-weight: normal;
+}
+
+/* Link CSS style */
+a{
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+}
+a:hover, a.on{ /*This is a cool way of adding the effect of an active link which is really cool!!! */
+  color: #cc3333;
+  background-color: #fff;
+}
