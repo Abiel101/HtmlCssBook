@@ -217,3 +217,16 @@ This is to make the corners differently */
   padding: 0px;
   border-radius: 100px;
 }
+
+
+
+
+
+/* link to the example page */
+.example{
+  text-decoration: none;
+  color: #0088dd;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
