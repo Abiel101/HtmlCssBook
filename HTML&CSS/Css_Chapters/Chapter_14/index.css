@@ -1,0 +1,101 @@
+/* making the lists titles */
+h5{
+  font-weight: lighter;
+  padding:  2px;
+  margin: 5px;
+  text-align: left;
+  border-bottom: solid black 1px;
+  color: black;
+}
+h4{
+  border-bottom: solid black 1px;
+}
+
+
+
+/* older list styles */
+ol, ul{
+  margin: 5px;
+  border: solid 1px black;
+  width: 150px;
+  display: inline-block; /* This is a good moment to use inline-block to keep the block properties but still put the boxes next to each other */
+}
+/* added spacing to list items */
+li{
+  margin: 10px 0px 10px 0px;
+}
+
+/* list item colors */
+.spidey{
+  color: #df0000;
+}
+.ironman{
+  color: #c57e21;
+}
+.thor{
+  color: #0f6bff;
+}
+.hulk{
+  color: #20a720;
+}
+.blackwidow{
+  color: #9b2e9b;
+}
+
+
+.decimal li{
+  list-style-type: decimal;
+}
+.decimal-leading-zero li{
+  list-style-type: decimal-leading-zero;
+}
+.lower-alpha li{
+  list-style-type: lower-alpha;
+}
+.upper-alpha li{
+  list-style-type: upper-alpha;
+}
+.lower-roman li{
+  list-style-type: lower-roman;
+}
+.upper-roman li{
+  list-style-type: upper-roman;
+}
+
+
+/* Unordered list styles */
+.none li{
+  list-style-type: none;
+}
+.disc li{
+  list-style-type: disc;
+}
+.circle li{
+  list-style-type: circle;
+}
+.square li{
+  list-style-type: square;
+}
+
+/* List style image */
+img{
+  margin: 30px 50px 30px 30px;
+}
+.list-style-image{
+  border: none;
+}
+.s-icon{
+  list-style-image: url(Images/heros/spider-man-icon.svg);
+}
+.i-icon{
+  list-style-image: url(Images/heros/iron-man-icon.svg);
+}
+.t-icon{
+  list-style-image: url(Images/heros/thor.svg);
+}
+.h-icon{
+  list-style-image: url(Images/heros/hulk-icon.svg);
+}
+.b-icon{
+  list-style-image: url(Images/heros/black-widow.svg);  
+}
