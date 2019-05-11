@@ -99,3 +99,111 @@ img{
 .b-icon{
   list-style-image: url(Images/heros/black-widow.svg);  
 }
+
+
+
+/* List-style-postion */
+.list-style-position1, .list-style-position2{
+  display: block;
+  border: none;
+  width: 450px;
+}
+/* outside */
+.outside{
+  list-style-position: outside;
+}
+.outside li{
+  padding: 10px;
+}
+
+/* inside */
+.inside{
+  list-style-position: inside;
+}
+.inside li{
+  padding: 10px;
+}
+
+
+/* short hand */
+#list{
+   display: block;
+   width: 400px;
+   border: none;
+   padding: 5px;
+   margin-left: 10px;
+ }
+ .sub{
+   list-style: inside circle;
+   width: 200px;
+ }
+ .sub li{
+   margin: 10px 0px 0px 0px;
+ }
+
+
+
+
+ /* Table Properties Styling a table for the first time. */
+/* this is like targeting normal elements but its being applies 
+on a table that elements live together in. The tables heading
+and the rest of it. */
+ table{
+   width: 600px;
+   font-family: Arial, Verdana, sans-serif;
+   color: #111111;
+ }
+th, td{
+  padding: 7px 10px 10px 10px;
+}
+th{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: left;
+}
+tr.even{
+  background-color: #efefef;
+}
+tr:hover{
+  background-color: #c3e6e5; /*This is really cool when your hovering over a line to see how it all is together*/
+}
+.money{
+  text-align: right;
+} 
+
+
+/* Working with empty Cells */
+
+.Empty-Cells table{
+  width: 25%;
+ border: rgb(66, 46, 175) solid 2px;
+ margin: 20px 0px;
+ padding: 20px;
+}
+.Empty-Cells td{
+  border: solid black 1px;
+  padding: 15px;
+}
+.table1{
+  empty-cells: show;
+}
+.table2{
+  empty-cells: hide;
+}
+
+
+/* added border spacing and also border collapses with the */
+.table3 td, .table4 td{
+  background-color: #0f6bff;
+  color: white;
+  border: solid black 5px;
+}
+.table3{
+  border-spacing: 10px 20px;
+}
+.table4{
+  border-collapse: collapse;
+}
