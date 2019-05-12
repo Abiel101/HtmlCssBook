@@ -303,3 +303,39 @@ legend{
   text-align: left;
   text-transform: uppercase;
 }
+
+
+
+/* Aligning Forms */
+
+.aligning-h2{
+  margin-bottom: 50px;
+}
+.aligning-form{
+  width: 50%;
+  border: solid 1px #d2d2d2;
+  padding: 20px;
+}
+form #align-form{
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+}
+.aligning-form input{
+  padding: 0px;
+  display: inline;
+}
+.title{
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+.submit{
+  text-align: right;
+}
+input[type="submit"]{
+  padding: 5px;
+  border-radius: 10px;
+}

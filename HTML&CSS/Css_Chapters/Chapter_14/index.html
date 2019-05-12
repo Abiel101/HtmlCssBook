@@ -290,11 +290,11 @@
 </div>
 
 
-<!-- styling form in CSS -->
+<!-- styling FORM's in CSS -->
 <section class="styling-forms">
 
   <h2>Styling Forms and also Fieldset and Legend</h2>
-    <form action="">
+    <form action="example.php">
       Name: <input type="text" id="person">
       Email: <input type="text" id="email">
       Phone: <input type="text" id="phone">
@@ -307,6 +307,34 @@
          <input type="button" value="Subcribe">
       </fieldset>
     </form>
+</section>
+
+
+      <!-- Aligning form objects -->
+<section class="Aligning-Forms">
+
+      <h2 class="aligning-h2">Aligning Forms Correctly</h2>
+      
+      <form action="example.php" method="POST" class="aligning-form" id="form">
+        <div id="align-form">
+          <label for="name" class="title">Name: </label>
+          <input type="text" class="name" name="name">
+        </div>
+        <div id="align-form">
+          <label for="" class="title">Email: </label>
+          <input type="email" class="email" name="email">
+        </div>
+        <div id="align-form" class="radio-button">
+          <span class="title">Gender:</span>
+          <input type="radio" name="gender" id="male" value="M">
+          <label for="male">M</label>
+          <input type="radio" name="gender" id="female" value="F">
+          <label for="female">F</label>
+        </div>
+        <div id="align-form" class="submit">
+          <input type="submit" value="Register" id="submit">
+        </div>
+      </form>
 
 </section>
 
