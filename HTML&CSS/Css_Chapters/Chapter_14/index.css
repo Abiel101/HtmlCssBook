@@ -207,3 +207,99 @@ tr:hover{
 .table4{
   border-collapse: collapse;
 }
+
+
+/* Styling Forms, Inputs, buttons, Fieldsets and legends */
+
+
+/* Styling Text Inputs!!!!!! */
+
+input{
+  font-size: 20%;
+  color: #5a5854;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 30px;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+input:focus, input:hover{
+  background-color: #ffffff;
+  border-bottom: 1px solid #b1e1e4;
+}
+/*Keep in mind that you might need ot have the sized png images the size that you want it to be....*/
+input[id="person"]{
+  background-image: url(images/heros/black-widow.svg); 
+}
+input[id="email"]{
+  background-image: url(images/heros/spider-man-icon.svg);
+}
+input[id="phone"]{
+  background-image: url(images/heros/thor.svg);
+}
+
+/* Styling Submit Button */
+
+input[value="Submit"]{
+  color: #444444;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2;
+  background-color: #b9e4e3;
+  padding: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from (#beeae9), to (#a8cfce));
+  background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+  background: -o-linear-gradient(top, #beeae9, #a8cfce);
+  background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+}
+input[value="Submit"]:hover{
+  color: #333333;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  background: -webkit-gradient(linear, left top, left bottom, from (#a8cfce), to (#beeae9));
+  background: -moz-linear-gradient(top, #a8cfce,#beeae9);
+  background: -o-linear-gradient(top, #a8cfce,#beeae9);
+  background: -ms-linear-gradient(top, #a8cfce,#beeae9);
+}
+
+
+/* Styling Fieldsets and Legends */
+
+fieldset{
+  margin: 50px 0px;
+  width: 360px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+fieldset input[type="text"]{
+  border: none;
+  background-color: #fff;
+  border-bottom: 1px solid #dcdcdc;
+  border-radius: 0px;
+  padding: 5px;
+  width: 50%;
+}
+fieldset input[value="Subcribe"]{
+  padding: 5px;
+  border-bottom: 2px solid #b2b2b2;
+}
+fieldset input[value="Subcribe"]:hover{
+  padding: 5px;
+  background-color: #d2d2d2;
+  border: 1px solid #dcdcdc;
+  border-top: 2px solid #b2b2b2;
+}
+legend{
+  color: white;
+  background-color: #a5a5a5;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
