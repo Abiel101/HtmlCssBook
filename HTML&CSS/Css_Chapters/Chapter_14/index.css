@@ -339,3 +339,35 @@ input[type="submit"]{
   padding: 5px;
   border-radius: 10px;
 }
+
+
+
+/* Styling the Cursor */
+
+.auto{
+  cursor: auto;
+}
+.crosshair{
+  cursor: crosshair;
+}
+.default{
+  cursor: default;
+}
+.pointer{
+  cursor: pointer;
+}
+.move{
+  cursor: move;
+}
+.text{
+  cursor: text;
+}
+.wait{
+  cursor: wait;
+}
+.help{
+  cursor: help;
+}
+.gif{
+  cursor: url("Images/mario.gif");
+}
