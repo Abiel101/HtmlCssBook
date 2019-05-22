@@ -34,5 +34,8 @@
     "typescriptreact",
     "yaml",
     "yml"
-  ]
+  ],
+  "editor.smoothScrolling": true,
+  "smoothtype.autoReload": true,
+  "editor.cursorSmoothCaretAnimation": true
 }
