@@ -1,6 +1,22 @@
 {
+  "editor.tokenColorCustomizations": {
+    "comments": {
+      "foreground":"#efd3ff",
+      "fontStyle": "italic",
+      }
+  },
+  "workbench.colorCustomizations": {
+    "foreground": "#d2cbe6",
+    "activityBar.foreground": "#ffffff",
+    "activityBarBadge.foreground": "#ffffff",
+    "activityBarBadge.background": "#9f65b9",
+    "editorLineNumber.activeForeground": "#cd93e7",
+    "tab.activeForeground": "#d2cbe6",
+    "tab.activeBorder": "#a9e28f",
+    "tab.activeBorderTop": "#ccb3f5",
+  },
+  "explorer.decorations.colors": true,
   "editor.fontLigatures": true,
-  "zenMode.hideTabs": false,
   "editor.cursorWidth": 3,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -37,5 +53,16 @@
   ],
   "editor.smoothScrolling": true,
   "smoothtype.autoReload": true,
-  "editor.cursorSmoothCaretAnimation": true
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.iconTheme": "simple-icons",
+  "bracketPairColorizer.highlightActiveScope": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "expand",
+  "workbench.settings.useSplitJSON": true,
+  "materialTheme.accent": "Acid Lime",
+  "editor.tabSize": 4,
+  "zenMode.hideTabs": false,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.fontFamily": "Fira Code iScript, Space Mono",
+  "editor.fontWeight": "100",
 }
