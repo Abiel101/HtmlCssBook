@@ -7,9 +7,12 @@
     <title>Document</title>
     
     <style>
+
+      /*Keep in mind you might need to use fixed and relative position together so that you are able to 
+      us them and position the things that you want the way that you want!!!1*/
     body{
-      background-color: gray;
-      font-family: Georgia, serif;
+      background-color: white;
+      font-family: Helvetica, serif;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -17,36 +20,43 @@
     }
     nav{
       position: fixed;
-      background-color: #0074d9;
+      background-color: rgba(132, 83, 224, 0.85);
       left: 0;
       right: 0;
-      bottom: 0;
+      top: 0;
+      z-index: 1; /*Here i used Z-index so that the Navigation would be on top of the paragraph sense the lower you are in the the code the more on top things are so Z-index fixed that little bug so that the nav would be on top of the Paragraphs*/
       padding: 10px;
     }
     li{
       display: inline;
       padding: 0px 100px;
       color: black;
-      float: right;
     }
-
-    /*This is the style form another example*/
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    a:hover{
+      color: white;
+      text-decoration: underline;
+    }
+    /*This style is the bottom paragraph part*/
     .parent {
-  color: white;
-  padding: 30px;
-  position: relative;
-  background-color: #0074d9;
-  margin-top: 50px;
-}
-/* Alignment styles */
-
-
-p {
-  margin: 0 auto;
-  max-width: 600px;
-  margin-top: 40px;
-  line-height: 1.5;
-}
+      color: white;
+      padding: 30px;
+      position: relative; /*This was set to relative because it needs to be relative to the page and that way you are able to move it 60px from the top using the "margin-top" property and also some "padding" */
+      background-color: #0074d9;
+      margin-top: 60px;
+    }
+    p {
+      margin: 0 auto;
+      max-width: 800px;
+      margin-top: 40px;
+      line-height: 1.5;
+    }
+    i{
+      color: #ff0080;
+    }
 
   </style>
 
