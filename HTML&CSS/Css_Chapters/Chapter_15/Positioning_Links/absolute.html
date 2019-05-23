@@ -6,19 +6,70 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Absolute Positioning</title>
   <style>
+    body{
+      margin: 0;
+    }
     .circle{
       width: 100px;
       height: 100px;
-      background-color: blue;
+      background-color: #6161f5;
       border-radius: 100%;
+      position: absolute;
+      z-index: -1;
+    }
+    .blue{
+      top: 20%;
+      left: 20%;
+    }
+    .red{
+      background-color: #a71d1d;
+      top: 40%;
+      left: 40%;
+    }
+    .purple{
+      background-color: #a943d8;
+      top: 60%;
+      left: 60%;
+    }
+    .orange{
+      background-color: #fab22d;
+    }
+    .paragraph{
+      padding: 20px;
+    }
+    #side_note{
+      color: #1f1fca;
+    }
+    span{
+      color: #a943d8;
+      text-decoration: underline;
+      margin-left: 10px;
+    }
+    #side_note, span{
+      text-shadow: -2px 1px 3px rgb(255, 255, 255);
+    }
+    section{
+      padding: 1px 10px;
     }
   </style>
 </head>
 <body>
-  <div class="circle"></div>
-  <h1>This is using Absolute Positioning</h1>
-  <p>having this Circle Placed anywhere knowing that it is under the header</p>
-  <p><i>The Circle is being placed some where in the screen depending on the top, bottom, left and right properties</i></p>
+  <div class="circle blue"></div>
+  <div class="circle red"></div>
+  <div class="circle purple"></div>
+  <div class="circle orange"></div>
+  <section style="background-color: rgba(245, 255, 255, 0.7)">
+    <h1>This is using Absolute Positioning</h1>
+    <p>having this Circle Placed anywhere knowing that it is under the header</p>
+    <p><i>The Circle is being placed some where in the screen depending on the top, bottom, left and right properties</i></p>
+
+    <p class="paragraph" style="background-color: rgba(97, 97, 245, 0.5)">In this I added a couple more circle and place them in different positions in the site 
+      and I really positioned them in different places making a littel line wiht them and with there different 
+      colors. <i id="side_note">This is how I can place differnt elemtents in the website where I want specifically with using the 
+        <span>Absolute Positioning.</span>
+      </i>
+    </p>
+  </section>
 </body>
 </html>
 
