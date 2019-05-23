@@ -17,6 +17,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: 0;
     }
     nav{
       position: fixed;
@@ -24,12 +25,11 @@
       left: 0;
       right: 0;
       top: 0;
-      z-index: 1; /*Here i used Z-index so that the Navigation would be on top of the paragraph sense the lower you are in the the code the more on top things are so Z-index fixed that little bug so that the nav would be on top of the Paragraphs*/
       padding: 10px;
     }
     li{
       display: inline;
-      padding: 0px 100px;
+      padding: 0px 50px;
       color: black;
     }
     a{
@@ -43,19 +43,35 @@
     /*This style is the bottom paragraph part*/
     .parent {
       color: white;
-      padding: 30px;
-      position: relative; /*This was set to relative because it needs to be relative to the page and that way you are able to move it 60px from the top using the "margin-top" property and also some "padding" */
-      background-color: #0074d9;
-      margin-top: 60px;
+      padding: 15px;
+      position: fixed; 
+      background-color: rgba(0, 0, 0, 1);
+      margin-top: 70px;
+      width: 10%;
+      font-weight: lighter;
+      border-top-right-radius: 1em;
+      border-bottom-right-radius: 1em;
     }
     p {
       margin: 0 auto;
-      max-width: 800px;
-      margin-top: 40px;
+      max-width: 600px;
+      margin-top: 10px;
       line-height: 1.5;
     }
+    .main{
+      padding: 50px;
+      padding-left: 110px;
+      position: relative; /*This was set to relative because it needs to be relative to the page and that
+       way you are able to move it 150px from the top using the "margin-top" property and also some "padding". 
+       Then you give it a z-index of -1 so it goes under both of the elements that are fixed. You can also
+       give the fixed elements the z-index of 1 to be on top but then you have to do it for both and in this one
+       you just need to do it to one element targeting it with the attribute that it has of ".main" */
+      z-index: -1;
+      margin-top: 10px;
+    }
     i{
-      color: #ff0080;
+      color: rgb(89, 167, 255);
+      font-family: monospace;
     }
 
   </style>
@@ -75,8 +91,11 @@
 
 
     <div class="parent">
-      Parent element <p class="quote"><i>"A fixed element can be placed from a certain part of the code but positioned some where else in the page"</i> Like the navigation at the bottom is actually in top of the code here but its been placed at the bottom</p>
+     <p>Parent element 
+      <br> <i class="quote">"A fixed element can be placed from a certain part of the code but positioned some where else in the page"</i> Like the navigation at the bottom is actually in top of the code here but its been placed at the bottom</p>
     </div>
+    <section class="main">
+    <h1>Fixed Positioning</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ut iure quisquam consequuntur id, iusto vitae
       molestiae assumenda ipsam eaque ipsa sit porro earum alias ratione, aspernatur quo quae aperiam voluptatum tempore
       expedita quidem. Culpa possimus dignissimos laborum asperiores quasi aut quia, adipisci quae quaerat error veritatis
@@ -145,6 +164,7 @@
       repellat asperiores officia voluptates ducimus aliquid adipisci inventore eum facilis officiis, quaerat laborum enim
       commodi vel soluta veritatis nam dolore quam suscipit. Iure, atque, harum quidem aperiam esse cum magni numquam
       dolorum voluptatum! Eum praesentium provident nesciunt vitae,</p>
+      </section>
   </main>
 
 
