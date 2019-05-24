@@ -65,4 +65,5 @@
   "workbench.editor.tabSizing": "shrink",
   "editor.fontFamily": "Fira Code iScript, Space Mono",
   "editor.fontWeight": "100",
+  "liveServer.settings.port": 5501,
 }
