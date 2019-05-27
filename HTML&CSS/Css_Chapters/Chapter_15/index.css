@@ -1,10 +1,10 @@
 li{
   list-style-type: none;
+  margin: 10px;
 }
 a{
   color: rgb(206, 107, 206);
   text-decoration: none;
-  margin: 10px;
 }
 
 /* Floats and CLears */
@@ -85,4 +85,97 @@ h3{
   display: block;
   height: 0;
   clear: both;
+}
+
+
+
+/* This is for the Fixed with */
+#nav ul li a{
+  color: black;
+}
+#nav ul li a:hover{
+  color: gray;
+  text-decoration: underline;
+}
+
+.fixedwidth{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fixedwidth{
+  margin-top: 50px;
+}
+#header{
+  text-align: center;
+}
+#content{
+  overflow: auto;
+  height: 100%;
+}
+#nav, #feature, #footer{
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;
+}
+.column_1, .column_2, .column_3{
+  background-color: #efefef;
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+li{
+  display: inline;
+  padding: 5px;
+}
+
+
+/* This is using liquid layout for the website */
+
+.liquid_layout{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.header_liquid{
+  text-align: center;
+}
+.liquid_layout_para{
+  color: rgb(197, 62, 62);
+  font-size: 1.5em;
+}
+.l_list a{
+  color: black;
+}
+.l_list a:hover{
+  color: gray;
+  text-decoration: underline;
+}
+#content_l{
+  overflow: auto;
+}
+#liquid_nav ,#feature_l, #footer_l{
+  margin: 1%;
+}
+.column_1_l, .column_2_l, .column_3_l{
+  width: 31.1%;
+  float: left;
+  margin: 1%;
+}
+.column_3_l{
+  margin-right: 0;
+}
+.l_list{
+  display: inline;
+  padding: 0.5em;
+}
+#liquid_nav, #footer_liquid{
+  padding: 0.5em 0;
+  background-color: #efefef;
+}
+#feature_l, .article{
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
 }
