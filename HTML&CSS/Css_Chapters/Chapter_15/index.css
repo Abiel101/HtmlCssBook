@@ -181,8 +181,15 @@ li{
 }
 
 
-/* GRID FRAME WORK */
-.Grid_960gs, .gridhead{
+/* GRID FRAME WORK and any extra editing for the chapter*/
+
+.smallerhead{
   font-size: 20px;
   padding: 20px;
+}
+.extraSections{
+  padding: 50px;
+}
+#link{
+  margin: 30px;
 }
