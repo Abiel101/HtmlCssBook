@@ -1,0 +1,7 @@
+/* main section style */
+
+main{
+    position: relative;
+    top: 100px;
+    z-index: -1;
+}
