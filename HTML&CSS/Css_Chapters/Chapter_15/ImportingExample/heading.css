@@ -16,3 +16,10 @@ li{
     display: inline;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(152, 42, 255);
+}
