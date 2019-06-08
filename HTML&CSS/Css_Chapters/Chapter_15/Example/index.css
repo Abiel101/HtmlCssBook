@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    background-color: #f5f3f0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 90%;
+    margin: 0px;
+    text-align: center;
+}
+
+a{
+    color: #3D6ECE;
+    text-decoration: none;
+}
+a:hover{
+    color: #F52626;
+}
+
+header{
+    background-color: #ffffff; 
+    padding: 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+}
+nav{
+    float: right;
+    padding: 45px 0px 0px 0px;
+    text-align: right;
+}
+main{
+    width: 960px;
+    margin: 0px auto;
+    text-align: left;
+}
+.logo{
+    margin-bottom: 20px;
+}
+h1, h2{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 240%;
+    margin-top: 140px;
+}
+.date{
+    font-size: 75%;
+    color: gray;
+}
+.intro{
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+.main-story{
+    height: 400px;
+}
+.more-articles{
+    border-top: 1px solid black;
+    padding: 10px;
+}
+.more-articles p{
+    border-bottom: 1px solid black;
+    padding: 5px 0px 15px 0px;
+    font-size: 80%:
+}
+.more-articles p:last-child{
+    border-bottom: none;
+}
+
+footer{
+    clear: both;
+    background: #ffffff;
+    padding: 5px 10px;
+}
+footer p{
+    font-size: 75%;
+    text-align: right;
+}
+footer a{
+    color: gray;
+}
+
+/* Final Touches */
+.img--shadow{
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
