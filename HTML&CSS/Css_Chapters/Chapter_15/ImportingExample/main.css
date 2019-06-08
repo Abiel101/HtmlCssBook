@@ -24,6 +24,6 @@ img{
 #details{
     font-style: italic;
     margin: 20px;
-    color: #ff0000;
-    text-shadow: -1px 1px 4px #b90707;
+    color: #ffffff;
+    text-decoration: underline;
 }

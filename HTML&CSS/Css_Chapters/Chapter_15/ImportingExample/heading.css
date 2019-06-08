@@ -15,10 +15,12 @@ header{
 li{
     display: inline;
     padding: 20px;
+    cursor: default;
 }
 a{
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 a:hover{
     color: rgb(152, 42, 255);
