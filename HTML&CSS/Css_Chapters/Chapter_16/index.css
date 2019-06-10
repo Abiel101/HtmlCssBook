@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    font-family: 'Muli', sans-serif;
+}
+
+#color--blue{
+    text-decoration: underline;
+    color: #657dcc;
+}
+.large{
+    width: 500px;
+}
+.medium{
+    width: 250px;
+}
+.small{
+    width: 100px;
+}
