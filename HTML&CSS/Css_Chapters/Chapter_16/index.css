@@ -41,30 +41,33 @@ figcaption{
     text-align: center;
 }
 
+
 /* This is adding a wallpaper and positioning the wallpaper in the parent element */
-.wallpaper{
+.wallpaper, .longer_sections{
     width: 29.5%;
     float: left;
-    height: 1000px;
-
+    height: 500px;
+    border: none;
 }
 .wallpaper_1{
     background-image: url(images/wallpaper/wallpaper_1.jpg);
     background-repeat: no-repeat;
-    background-size: 190%;
+    background-size: 100%;
 }
 .wallpaper_2{
     background-image: url(images/wallpaper/wallpaper_2.jpg);
     background-repeat: no-repeat;
-    background-size: 117%;
+    background-size: 100%;
     /* Added positioning so the flower can look be in the bottom and look better */
     background-position: bottom;
 }
 .wallpaper_3{
     background-image: url(images/wallpaper/wallpaper_3.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: black;
+    background-size: 70%;
+    /* Positioned the image to the right */
+    background-position: right;
+    background-color: #0B0D0D;
 }
 .title{
     font-size: 3em;
@@ -83,4 +86,38 @@ figcaption{
 .black--pink{
     color: white;
     text-shadow: -2px 2px 10px #a03191;
+}
+
+
+/* Adding Gradient Backgrounds to the section elements */
+.title_paragraph{
+    text-align: center;
+    position: relative;
+    top: 42%;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.gradient_1{
+    background-color: #670ab3; /*This is a fall-back color*/
+    background-image: linear-gradient(#ffffff, #670ab3, #a03191, #670ab3);
+}
+.gradient_2{
+    background-color: #a03191; /*This is a fall-back color*/
+    background-image: radial-gradient(#ffffff, #a03191);
+}
+.gradient_3{
+    background-color: #b11515; /*This is a fall-back color*/
+    background-image: linear-gradient(to bottom right, #ffffff, #b11515, #ffff00);
+}
+.gradient_4{
+    background-color: #b11515; /*This is a fall-back color*/
+    background-image: linear-gradient(90deg, #ffffff, #1585b1, #ff9900);
+}
+.gradient_5{
+    background-color: #b11515; /*This is a fall-back color*/
+    background-image: linear-gradient(-90deg, #ffffff, #155eb1, #ff0000);
+}
+.gradient_6{
+    background-color: #b11515; /*This is a fall-back color*/
+    background-image: linear-gradient(to bottom left, #ffffff, #46b115, #00b7ff);
 }
