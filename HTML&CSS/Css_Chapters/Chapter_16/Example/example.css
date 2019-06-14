@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: gotham;
 }
 body{
     height: 100vh;
@@ -16,12 +17,24 @@ body{
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #ffffff;
-    opacity: .20;
+    background-color: #252525;
+    opacity: .30;
 }
-nav{
+
+/* Logo positioning with position relative */
+.logo{
+    width: 960px;
+    position: absolute;
+    top: 10%;
+}
+.center{
     position: relative;
-    top: 400px;
+    left: 45%;
+}
+
+nav{
+    position: absolute;
+    top: 12%;
     z-index: 1;
     width: 960px;
     margin: 0px auto;
@@ -43,6 +56,8 @@ a:hover{
     text-decoration: underline;
     animation: text_shadow 1.5s infinite;
 }
+
+
 
 @keyframes text_shadow{
     0%{
