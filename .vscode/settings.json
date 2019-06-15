@@ -67,6 +67,14 @@
   "editor.fontWeight": "100",
   "liveServer.settings.port": 5501,
 
+  "bracket-pair-colorizer-2.colors": [
+    "LightSkyBlue",
+    "#56ce38",
+    "Orchid",
+    "#91ffd5",
+  ],
+  
+
   "editor.tokenColorCustomizations": {
     "textMateRules": [{  //This is for the Comments color an style!!!!
             "name": "Comment",
@@ -236,5 +244,4 @@
         },
     ]
 },
-
 }
