@@ -60,7 +60,7 @@
   "editor.cursorBlinking": "expand",
   "workbench.settings.useSplitJSON": true,
   "materialTheme.accent": "Acid Lime",
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "zenMode.hideTabs": false,
   "workbench.editor.tabSizing": "shrink",
   "editor.fontFamily": "Fira Code iScript, Space Mono",
