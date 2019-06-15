@@ -129,7 +129,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                //"foreground": "#FF5370"
+                // "foreground": "#FF5370"
             }
         },
 
@@ -142,7 +142,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                //"foreground": "#FFCB6B"
+                // "foreground": "#FFCB6B"
             }
         },
 
