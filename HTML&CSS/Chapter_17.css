@@ -1,0 +1,131 @@
+:root{
+  --main-bg-color: rgb(80, 80, 80);
+  --color-heading-subheading: rgb(63, 152, 194);
+}
+/* *{
+  border: solid red 1px;
+} */
+
+
+
+
+body{
+  background-color: rgb(39, 42, 49);
+  font-family: gotham;
+}
+.main{
+  width: 55%;
+  margin: 50px auto;
+  background-color: white;
+}
+main, footer{
+  padding: 20px;
+}
+.article_image{
+  width: 300px;
+}
+.title{
+  font-size: 3em;
+}
+.heading{
+  font-size: 1.5em;
+  padding: 0px;
+  width: 50%;
+  text-decoration: underline;
+}
+.sub_heading{
+  font-size: 1em;
+  color: rgb(63, 152, 194);
+}
+/* Header */
+.Logo{
+  width: 150px;
+  float: left;
+  margin: 20px;
+}
+.main_title{
+  position: relative;
+  top: 50px;
+  color: white;
+}
+.title_sub{
+  font-size: 1.2em;
+  color: rgb(49, 49, 49);
+}
+header{
+  background-color: rgb(175, 175, 175);
+}
+nav{
+  background-color: var(--main-bg-color);
+  padding: 1px;
+  clear: both;
+}
+li{
+  display: inline;
+  padding-left: 80px;
+}
+li:first-child{
+  padding-left: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:active{
+  color: black;
+}
+#active{
+  color: black;
+}
+
+/* main Sections with articles and aside */
+.float--left{
+  float: left;
+  clear: left;
+}
+.float--right{
+  float: right;
+}
+/* Articles */
+.articles{
+  width: 80%;
+}
+.article_info{
+  width: 50%;
+}
+
+/* sidebar */
+.sidebar_nav li{
+  display: block;
+  padding: 5px 0px;
+  text-align: left;
+}
+.sidebar_nav a{
+  display: block;
+  color: var(--color-heading-subheading);
+}
+ul{
+  padding-left: 10px;
+}
+.aside_title, .contact h1{
+  color: var(--color-heading-subheading);
+}
+.contact p{
+  font-style: italic;
+}
+.contact{
+  margin-top: 50px;
+}
+
+/* footer */
+footer{
+  clear: both;
+  background-color: var(--main-bg-color);
+  padding: 5px 50px;
+  color: rgb(126, 126, 126);
+  font-size: 0.5em;
+}
+footer p:hover{
+  color: rgb(197, 197, 197);
+  transition: 0.5s;
+}
