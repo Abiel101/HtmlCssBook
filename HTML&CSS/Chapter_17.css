@@ -14,7 +14,7 @@ body{
   font-family: gotham;
 }
 .main{
-  width: 55%;
+  width: 70%;
   margin: 50px auto;
   background-color: white;
 }
@@ -71,11 +71,14 @@ a{
   color: white;
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;
+}
 a:active{
   color: black;
 }
 #active{
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* main Sections with articles and aside */
@@ -92,6 +95,7 @@ a:active{
 }
 .article_info{
   width: 50%;
+  margin-right: 10%;
 }
 
 /* sidebar */
@@ -103,6 +107,10 @@ a:active{
 .sidebar_nav a{
   display: block;
   color: var(--color-heading-subheading);
+}
+.sidebar_nav a:hover{
+  color: rgb(97, 8, 180);
+  transition: 0.75s;
 }
 ul{
   padding-left: 10px;
@@ -124,6 +132,7 @@ footer{
   padding: 5px 50px;
   color: rgb(126, 126, 126);
   font-size: 0.5em;
+  cursor: default;
 }
 footer p:hover{
   color: rgb(197, 197, 197);
